@@ -7,13 +7,20 @@ namespace list_tutorial
     {
         static void Main(string[] args)
         {
-            var names = new List<string> { "La Pinta", "La nina", "La Santa Maria" };
+            // Lists are very useful as they can grow or shring
+            var names = new List<string> { "La Pinta", "La Nina", "La Santa Maria" };
+    
+            names.Add("Battlestar Gallactica");
+            names.Remove("La Nina");
+            
             int counter = 1;
             foreach (var name in names)
             {
                 Console.WriteLine($"Ship #{counter}: {name.ToUpper()}!");
                 counter ++;
             }
+
+
         }
     }
 }
