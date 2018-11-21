@@ -2,7 +2,7 @@
 This is just a collection of .NET exercises I have done and also some quick notes I have written. 
 
 
-### Cheatsheet
+### Console Applications
 
 To create a new console app:
 `dotnet new console -o myApp`
@@ -11,6 +11,8 @@ Note that -o flag indicates in what folder the app is going to be created, and t
 
 `dotnet new --help`
 
+
+
 ---
 Remember to import `System.Collections.Generic` if List are going to be implemented in the program:
 ```C#
@@ -18,5 +20,12 @@ using System.Collections.Generic;
 ```
 
 ---
+### Web Applications
+To create an empty web application:
+`dotnet new web -o myApp`
+
+To run application in server:
+`dotnet run`
+
 
 
