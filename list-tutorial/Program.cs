@@ -5,7 +5,14 @@ namespace list_tutorial
 {
     class Program
     {
+
         static void Main(string[] args)
+        {
+            WorkingWithShips();
+        }
+
+
+        public static void WorkingWithShips()
         {
             // Lists are very useful as they can grow or shring
             var ships = new List<string> { "La Pinta", "La Nina", "La Santa Maria" };
@@ -53,5 +60,6 @@ namespace list_tutorial
                 Console.WriteLine($"Hello {ship.ToUpper()}!");
             }
         }
+
     }
 }
