@@ -7,10 +7,12 @@ namespace list_tutorial
     {
         static void Main(string[] args)
         {
-            var names = new List<string> { "<name>", "Diego", "Fernando" };
+            var names = new List<string> { "La Pinta", "La nina", "La Santa Maria" };
+            int counter = 1;
             foreach (var name in names)
             {
-                Console.WriteLine($"Hello {name.ToUpper()}!");
+                Console.WriteLine($"Ship #{counter}: {name.ToUpper()}!");
+                counter ++;
             }
         }
     }
