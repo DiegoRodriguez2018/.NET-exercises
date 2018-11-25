@@ -22,3 +22,12 @@ html,body{
     font-size: 2rem;
 }
 
+.input-form{
+    text-align: center;
+}
+
+.container-list{
+    display:table; 
+    margin:0 auto;
+}
+
