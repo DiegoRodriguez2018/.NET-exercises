@@ -20,6 +20,11 @@ namespace to_do_list
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
+            // app.UseFileServer();
+            //Note we can also use app.UseFileServer(); which is equivalent to use   app.UseDefaultFiles(); and app.UseStaticFiles(); at the same time. 
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
