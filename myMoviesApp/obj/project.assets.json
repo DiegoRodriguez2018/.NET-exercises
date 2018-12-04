@@ -11800,11 +11800,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/diego/apps/dotNET/myMovieApp/myMovieApp.csproj",
+      "projectUniqueName": "/home/diego/apps/dotNET/myMoviesApp/myMovieApp.csproj",
       "projectName": "myMovieApp",
-      "projectPath": "/home/diego/apps/dotNET/myMovieApp/myMovieApp.csproj",
+      "projectPath": "/home/diego/apps/dotNET/myMoviesApp/myMovieApp.csproj",
       "packagesPath": "/home/diego/.nuget/packages/",
-      "outputPath": "/home/diego/apps/dotNET/myMovieApp/obj/",
+      "outputPath": "/home/diego/apps/dotNET/myMoviesApp/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
